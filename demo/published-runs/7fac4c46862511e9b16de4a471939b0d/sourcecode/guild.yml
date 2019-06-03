@@ -1,0 +1,7 @@
+- model: mnist-logreg
+  operations:
+    train:
+      main: mnist_logistic_regression
+      flags-import:
+        - epochs
+        - lr
