@@ -1,0 +1,5 @@
+batch_size: 128
+classes: 10
+epochs: 10
+input_dim: 784
+lr: 0.5076653121354957

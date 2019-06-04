@@ -3,5 +3,9 @@
     train:
       main: mnist_logistic_regression
       flags-import:
+        - batch_size
         - epochs
         - lr
+      sourcecode:
+        - guild.yml
+        - mnist_logistic_regression.py

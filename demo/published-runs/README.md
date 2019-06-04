@@ -2,5 +2,5 @@
 
 | ID | Operation | Started | Time | Status | Label |
 | -- | --------- | ------- | ---- | ------ | ----- |
-| [7fac4c46](7fac4c46862511e9b16de4a471939b0d/README.md) | mnist-logreg:train | 2019-06-03 17:32:02 UTC | 0:00:14 | completed | &nbsp; |
+| [10894a20](10894a20866b11e9b16de4a471939b0d/README.md) | mnist_logistic_regression.py | 2019-06-04 01:50:39 UTC | 0:00:07 | completed | best |
 

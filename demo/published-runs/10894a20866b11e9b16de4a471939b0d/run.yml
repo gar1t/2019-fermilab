@@ -1,0 +1,11 @@
+id: 10894a20866b11e9b16de4a471939b0d
+operation: mnist_logistic_regression.py
+status: completed
+started: 2019-06-04 01:50:39 UTC
+stopped: 2019-06-04 01:50:47 UTC
+time: 0:00:07
+marked: 'yes'
+label: best
+command: /usr/bin/python -um guild.op_main mnist_logistic_regression --batch_size 128 --classes
+  10 --epochs 10 --input_dim 784 --lr 0.507665312135
+exit_status: 0

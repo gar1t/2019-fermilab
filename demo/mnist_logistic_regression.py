@@ -11,7 +11,7 @@ from keras.utils import np_utils
 
 batch_size = 128
 epochs = 10
-lr = 0.01
+lr = 0.1
 
 # Get the data
 
