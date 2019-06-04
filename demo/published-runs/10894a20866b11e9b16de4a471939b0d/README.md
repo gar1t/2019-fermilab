@@ -59,16 +59,16 @@
 
 | Path | Type | Size | Modified | MD5 |
 | ---- | ---- | ---- | -------- | --- |
-| weights.01-0.3038.hdf5 | file | 77.8K | 2019-06-03 20:50:42 UTC | 4f765b57bb5aed17cf19cc81f7fb98f2 |
-| weights.02-0.2980.hdf5 | file | 77.8K | 2019-06-03 20:50:42 UTC | b60e4c7e1e0ea4506e59ef6d210bfe91 |
-| weights.03-0.2820.hdf5 | file | 77.8K | 2019-06-03 20:50:43 UTC | 79194a79288bdebb212c9a53c5c79215 |
-| weights.04-0.2765.hdf5 | file | 77.8K | 2019-06-03 20:50:44 UTC | 626a06fee570c455b39ab8ccebcae828 |
-| weights.05-0.2926.hdf5 | file | 77.8K | 2019-06-03 20:50:44 UTC | 2b88c85786ce8fa370eb1af63492d3e4 |
-| weights.06-0.2744.hdf5 | file | 77.8K | 2019-06-03 20:50:45 UTC | 5dfc36e72dbd8e8d82b00ada24be70df |
-| weights.07-0.2761.hdf5 | file | 77.8K | 2019-06-03 20:50:45 UTC | 5ff578ae008fe6c32434034b3a6d1e36 |
-| weights.08-0.2724.hdf5 | file | 77.8K | 2019-06-03 20:50:46 UTC | 98c09d845e2782b89241b6a784a901da |
-| weights.09-0.2720.hdf5 | file | 77.8K | 2019-06-03 20:50:47 UTC | 3c65adc37699ca772d9ff56b18757021 |
-| weights.10-0.2704.hdf5 | file | 77.8K | 2019-06-03 20:50:47 UTC | 5ac42fc2d35d50ad96776a9ed8f9e55f |
+| [weights.01-0.3038.hdf5](runfiles/weights.01-0.3038.hdf5) | file | 77.8K | 2019-06-03 20:50:42 UTC | 4f765b57bb5aed17cf19cc81f7fb98f2 |
+| [weights.02-0.2980.hdf5](runfiles/weights.02-0.2980.hdf5) | file | 77.8K | 2019-06-03 20:50:42 UTC | b60e4c7e1e0ea4506e59ef6d210bfe91 |
+| [weights.03-0.2820.hdf5](runfiles/weights.03-0.2820.hdf5) | file | 77.8K | 2019-06-03 20:50:43 UTC | 79194a79288bdebb212c9a53c5c79215 |
+| [weights.04-0.2765.hdf5](runfiles/weights.04-0.2765.hdf5) | file | 77.8K | 2019-06-03 20:50:44 UTC | 626a06fee570c455b39ab8ccebcae828 |
+| [weights.05-0.2926.hdf5](runfiles/weights.05-0.2926.hdf5) | file | 77.8K | 2019-06-03 20:50:44 UTC | 2b88c85786ce8fa370eb1af63492d3e4 |
+| [weights.06-0.2744.hdf5](runfiles/weights.06-0.2744.hdf5) | file | 77.8K | 2019-06-03 20:50:45 UTC | 5dfc36e72dbd8e8d82b00ada24be70df |
+| [weights.07-0.2761.hdf5](runfiles/weights.07-0.2761.hdf5) | file | 77.8K | 2019-06-03 20:50:45 UTC | 5ff578ae008fe6c32434034b3a6d1e36 |
+| [weights.08-0.2724.hdf5](runfiles/weights.08-0.2724.hdf5) | file | 77.8K | 2019-06-03 20:50:46 UTC | 98c09d845e2782b89241b6a784a901da |
+| [weights.09-0.2720.hdf5](runfiles/weights.09-0.2720.hdf5) | file | 77.8K | 2019-06-03 20:50:47 UTC | 3c65adc37699ca772d9ff56b18757021 |
+| [weights.10-0.2704.hdf5](runfiles/weights.10-0.2704.hdf5) | file | 77.8K | 2019-06-03 20:50:47 UTC | 5ac42fc2d35d50ad96776a9ed8f9e55f |
 
 [runfiles.csv](runfiles.csv)
 
