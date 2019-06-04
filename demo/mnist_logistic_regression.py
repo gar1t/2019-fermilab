@@ -10,7 +10,7 @@ from keras.utils import np_utils
 # Hyperparameters
 
 batch_size = 128
-epochs = 20
+epochs = 10
 lr = 0.01
 
 # Get the data
@@ -19,7 +19,7 @@ lr = 0.01
 
 # Reshape and normalize the inputs
 
-input_dim = 784 #28*28
+input_dim = 784 # 28 * 28
 X_train = X_train.reshape(60000, input_dim)
 X_test = X_test.reshape(10000, input_dim)
 X_train = X_train.astype('float32')
@@ -29,15 +29,17 @@ X_test /= 255
 
 # Convert class vectors to binary class matrices
 
-nb_classes = 10
+classes = 10
 
-Y_train = np_utils.to_categorical(y_train, nb_classes)
-Y_test = np_utils.to_categorical(y_test, nb_classes)
+Y_train = np_utils.to_categorical(y_train, classes)
+Y_test = np_utils.to_categorical(y_test, classes)
 
 # Build the model
 
 model = Sequential()
-model.add(Dense(nb_classes, input_dim=input_dim, activation='softmax'))
+
+model.add(Dense(classes, input_dim=input_dim, activation='softmax'))
+
 model.compile(
     optimizer=SGD(lr),
     loss='categorical_crossentropy',
@@ -49,7 +51,7 @@ checkpoint = ModelCheckpoint('weights.{epoch:02d}-{val_loss:.4f}.hdf5')
 
 # Train the model
 
-history = model.fit(
+model.fit(
     X_train,
     Y_train,
     batch_size=batch_size,
@@ -57,9 +59,3 @@ history = model.fit(
     verbose=1,
     validation_data=(X_test, Y_test),
     callbacks=[checkpoint])
-
-# Evaluate the model
-
-score = model.evaluate(X_test, Y_test, verbose=0)
-print('Test score:', score[0])
-print('Test accuracy:', score[1])
